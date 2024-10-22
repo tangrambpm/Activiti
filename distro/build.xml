@@ -8,7 +8,7 @@
 	<property name="target.distro.root" value="target/zip/activiti-${activiti.version}" />
 	<property name="activiti.website" value="../../activiti-website" />
 
-	<condition property="mvn.executable" value="mvn.bat" else="mvn3">
+	<condition property="mvn.executable" value="mvn.bat" else="mvn">
 		<os family="windows" />
 	</condition>
 
