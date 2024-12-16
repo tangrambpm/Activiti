@@ -7,9 +7,9 @@ To build a new release:
    $ find . -name pom.xml -exec rpl 5.17-NEXTBPM-5 5.17-NEXTBPM-6 {} \; -print
    $ find . -name build.xml -exec rpl 5.17-NEXTBPM-5 5.17-NEXTBPM-6 {} \; -print
 
-* Install the ``tangram-addons`` package:
+* Install the ``nextbpm-addons`` package:
 
-   $ cd modules/tangram-addons/
+   $ cd modules/nextbpm-addons/
    $ mvn install
 
 * Build the distro:

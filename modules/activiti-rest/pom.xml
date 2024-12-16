@@ -217,8 +217,8 @@
     </dependency>
     <!-- Tangram -->
     <dependency>
-      <groupId>es.tangrambpm.activiti</groupId>
-      <artifactId>tangram-addons</artifactId>
+      <groupId>es.nextbpm.activiti</groupId>
+      <artifactId>nextbpm-addons</artifactId>
     </dependency>
   </dependencies>
 

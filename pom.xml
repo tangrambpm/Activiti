@@ -102,11 +102,6 @@
         <version>1.7.6</version>
       </dependency>
       <dependency>
-        <groupId>commons-httpclient</groupId>
-        <artifactId>commons-httpclient</artifactId>
-        <version>3.1</version>
-      </dependency>
-      <dependency>
         <!-- required by Apache commons httpclient, required by restlet -->
         <groupId>commons-logging</groupId>
         <artifactId>commons-logging</artifactId>
@@ -275,8 +270,8 @@
       </dependency>
       <!-- Tangram -->
       <dependency>
-        <groupId>es.tangrambpm.activiti</groupId>
-        <artifactId>tangram-addons</artifactId>
+        <groupId>es.nextbpm.activiti</groupId>
+        <artifactId>nextbpm-addons</artifactId>
         <version>${project.version}</version>
       </dependency>
       <!-- EMAIL -->
